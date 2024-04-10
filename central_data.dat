@@ -1,0 +1,68 @@
+# SERRA DA MESA
+param: SDM :   d1        y1         :=
+        1     1275     593.00       # May
+        2     1275     409.50       # Jun
+        3     1275     309.10       # Jul
+        4     1275     241.90       # Ago
+        5     1275     230.80       # Sep
+        6     1275     338.50       # Oct
+        7     1275     584.90       # Nov
+        8     1275     1087.7       # Dec
+        9     1275     1465.8       # Jan
+        10    1275     1693.7       # Fev
+        11    1275     1561.4       # Mar
+        12    1275     1116.3       # Abr
+        13    1275     593.04       # May                      
+        14    1275     409.52       # Jun                       
+        15    1275     309.06       # Jul                      
+        16    1275     241.88       # Ago                       
+        17    1275     230.79       # Sep                       
+        18    1275     338.46       # Oct                       
+        19    1275     584.90       # Nov                       
+        20    1275     1087.7       # Dec                       
+        21    1275     1465.8       # Jan                       
+        22    1275     1693.7       # Fev                       
+        23    1275     1561.4       # Mar                       
+        24    1275     1116.3       # Abr                       
+;
+
+# TUCURUI
+param: TUC :   d2         y2        :=
+        1     8365     15649.31     # May      
+        2     8365     7549.990     # Jun      
+        3     8365     4375.250     # Jul      
+        4     8365     3107.990     # Ago      
+        5     8365     2437.720     # Sep      
+        6     8365     2728.340     # Oct      
+        7     8365     4461.270     # Nov      
+        8     8365     8719.730     # Dec      
+        9     8365     15389.31     # Jan      
+        10    8365     20656.36     # Fev      
+        11    8365     24026.66     # Mar      
+        12    8365     24088.99     # Abr      
+        13    8365     15649.31     # May                                       
+        14    8365     7549.990     # Jun                           
+        15    8365     4375.250     # Jul                          
+        16    8365     3107.990     # Ago                           
+        17    8365     2437.720     # Sep                           
+        18    8365     2728.340     # Oct                           
+        19    8365     4461.270     # Nov                           
+        20    8365     8719.730     # Dec                           
+        21    8365     15389.31     # Jan                           
+        22    8365     20656.36     # Fev                           
+        23    8365     24026.66     # Mar                           
+        24    8365     24088.99     # Abr 
+;
+
+param x1_min   := 11150;     # Volume min [hm3]
+param x1_max   := 54400;     # Volume max [hm3]
+param q1_max   := 6163;      # Vazão turbinada máxima / efetiva [m3/s]
+param p1_esp   := 0.009124;  # Produtibilidade específica [MW/m3/s/m]
+
+param x2_min   := 11292.78;   # volume min [hm3]
+param x2_max   := 50275.18;   # volume max [hm3]
+param q2_max   := 51539;      # Vazão turbinada máxima / efetiva [m3/s]  
+param p2_esp   := 0.009182;  # Produtibilidade específica [MW/m3/s/m]  
+
+param delta_t := 2.628;       # Fator de conversão
+param k       := 0.002;       # Parâmetro da função quadrática de custo térmico
